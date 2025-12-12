@@ -1,51 +1,9 @@
 const express = require('express');
 const app = express();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// --- SOLUCIÓN: Agrega esta línea ---
+const helmet = require('helmet');
+// ----------------------------------
 
 module.exports = app;
 const api = require('./server.js');
